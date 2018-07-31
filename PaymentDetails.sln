@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentDetails.Api", "PaymentDetails.Api\PaymentDetails.Api.csproj", "{71AB5ACC-3BA7-4D35-ADFC-A13ED17D581F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentDetails.Api.Tests", "PaymentDetails.Api.Tests\PaymentDetails.Api.Tests.csproj", "{59C184B4-D8D9-49E5-9C27-5074F2044E6E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaymentDetail.Client", "PaymentDetail.Client\", "{5C49D706-96D4-43D9-B230-3B6F01C9D607}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65406"
+		Debug.AspNetCompiler.PhysicalPath = "PaymentDetail.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65406\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65406"
+		Release.AspNetCompiler.PhysicalPath = "PaymentDetail.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65406\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65406"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentDetails.Model", "PaymentDetails.Model\PaymentDetails.Model.csproj", "{DDFCFB06-E615-427F-AAAB-ACC662E20AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentDetails.Repository", "PaymentDetails.Repository\PaymentDetails.Repository.csproj", "{915D0A23-0D50-428D-ACE2-CF980F3B9B2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71AB5ACC-3BA7-4D35-ADFC-A13ED17D581F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AB5ACC-3BA7-4D35-ADFC-A13ED17D581F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AB5ACC-3BA7-4D35-ADFC-A13ED17D581F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AB5ACC-3BA7-4D35-ADFC-A13ED17D581F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C184B4-D8D9-49E5-9C27-5074F2044E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C184B4-D8D9-49E5-9C27-5074F2044E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C184B4-D8D9-49E5-9C27-5074F2044E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C184B4-D8D9-49E5-9C27-5074F2044E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C49D706-96D4-43D9-B230-3B6F01C9D607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C49D706-96D4-43D9-B230-3B6F01C9D607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C49D706-96D4-43D9-B230-3B6F01C9D607}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C49D706-96D4-43D9-B230-3B6F01C9D607}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DDFCFB06-E615-427F-AAAB-ACC662E20AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFCFB06-E615-427F-AAAB-ACC662E20AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFCFB06-E615-427F-AAAB-ACC662E20AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFCFB06-E615-427F-AAAB-ACC662E20AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915D0A23-0D50-428D-ACE2-CF980F3B9B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915D0A23-0D50-428D-ACE2-CF980F3B9B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915D0A23-0D50-428D-ACE2-CF980F3B9B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915D0A23-0D50-428D-ACE2-CF980F3B9B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA4D912-E310-498C-AC6B-FF5C88911B3B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+<form class="form-horizontal" #f="ngForm" (ngSubmit)="onSubmit(payment)">
+
+    <fieldset>
+        <legend>Payment Information</legend>
+        <div class="form-group">
+
+            <label for="bsb" class="col-sm-3 control-label">BSB</label>
+            <div class="col-sm-9">
+                <input type="text" id="bsb" name="bsb" class="form-control"
+                [(ngModel)]="payment.bsb" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="accountNumber" class="col-sm-3 control-label">Account Number</label>
+            <div class="col-sm-9">
+                <input type="text" name="accountNumber" id="accountNumber" class="form-control" 
+                [(ngModel)]="payment.accountNumber"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="accountName" class="col-sm-3 control-label">Account Name</label>
+            <div class="col-sm-9">
+                <input type="text" name="accountName" id="accountName" class="form-control" 
+                [(ngModel)]="payment.accountName"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="reference" class="col-sm-3 control-label">Reference</label>
+            <div class="col-sm-9">
+                <input type="text" name="reference" id="reference" class="form-control" 
+                [(ngModel)]="payment.reference"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="amount" class="col-sm-3 control-label">Amount</label>
+            <div class="col-sm-9">
+                <input type="text" name="amount" id="amount" class="form-control" 
+                [(ngModel)]="payment.amount"/>
+            </div>
+        </div>
+    </fieldset>
+    <br />
+    <div class="col-sm-offset-3 col-sm-9">
+        <input type="submit" class="btn btn-primary" value="Submit" />
+    </div>
+
+</form>

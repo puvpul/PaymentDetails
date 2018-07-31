@@ -1,0 +1,26 @@
+[
+  {
+    "PaymentId": 1,
+    "BSB": 11111,
+    "AccountNumber": 12312121,
+    "AccountName": "fariz",
+    "Reference": "fariz",
+    "Amount": 10000.0
+  },
+  {
+    "PaymentId": 2,
+    "BSB": 0,
+    "AccountNumber": 0,
+    "AccountName": "tisha",
+    "Reference": "tisha",
+    "Amount": 7777777.0
+  },
+  {
+    "PaymentId": 3,
+    "BSB": 8888,
+    "AccountNumber": 777777777,
+    "AccountName": "wakil",
+    "Reference": "wakil",
+    "Amount": 0.0
+  }
+]
